@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(59, 115, 165);
+  background-image: linear-gradient(
+    315deg,
+    rgb(138, 196, 191) 0%,
+    rgb(164, 238, 232) 100%
+  );
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: antiquewhite;
+  color: rgb(44, 36, 13);
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.quiz-header {
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+ul li label {
+  cursor: pointer;
+}
+button {
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(240, 70, 41);
+}
+button:focus {
+  outline: none;
+}
